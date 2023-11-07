@@ -20,13 +20,15 @@ function LoginPage ({ props }) {
 
                 <h3>Login</h3>
 
+                <label htmlFor="email_address">Email address:</label>
                 <input className="email-login"
                 type="text"
                 onChange={handleChangeEmail}
                 value={email}
-                placeholder="Email address"
+                placeholder="Email"
                 />
 
+                <label htmlFor="password">Password here:</label>
                 <input className="password-login"
                 type="password"
                 onChange={handleChangePassword}
